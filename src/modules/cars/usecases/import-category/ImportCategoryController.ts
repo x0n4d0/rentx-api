@@ -1,9 +1,13 @@
 import { Request, Response } from 'express';
 
+import { ImportCategoryUseCase } from './ImportCategoryUseCase';
+
 export class ImportCategoryController {
-  handle(request: Request, response: Response) {
+  constructor(private importCategoryUseCase: ImportCategoryUseCase) {}
+
+  handle(request: Request, response: Response): Response {
     const { file } = request;
-    console.log(file);
+    this.importCategoryUseCase.execute(file);
     return response.send();
   }
 }
