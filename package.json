@@ -1,0 +1,8 @@
+{
+  "name": "rentx-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:x0n4d0/rentx-api.git",
+  "author": "x0n4d0 <romagnolimauricio@gmail.com>",
+  "license": "MIT"
+}
