@@ -5,6 +5,7 @@ module.exports = {
   "username": "docker",
   "password": "docker",
   "database": "rentx",
+  "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
