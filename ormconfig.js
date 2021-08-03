@@ -5,7 +5,7 @@ module.exports = {
   "username": "docker",
   "password": "docker",
   "database": "rentx",
-  "synchronize": true,
+  "synchronize": false,
   "migrations": ["./src/database/migrations/*.ts"],
   "entities": ["./src/modules/**/entities/*.ts"],
   "cli": {
