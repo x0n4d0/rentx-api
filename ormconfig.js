@@ -4,5 +4,8 @@ module.exports = {
   "host": "localhost",
   "username": "docker",
   "password": "docker",
-  "database": "rentx"
+  "database": "rentx",
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
 }
