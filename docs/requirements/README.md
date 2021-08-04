@@ -1,6 +1,6 @@
 <div align='justify'>
 
-## **Requirements**
+## **📝 Requirements**
 
 <br>
 
@@ -8,9 +8,13 @@
 
 - [ ] It should be possible to register a new car
 
+<br>
+
 ### **Nonfunctional**
 
-- [ ] Use the multer library to upload files
+- [X] Use the multer library to upload files
+
+<br>
 
 ### **Business Rules**
 
