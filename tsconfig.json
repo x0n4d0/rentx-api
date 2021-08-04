@@ -17,7 +17,7 @@
       "@shared/*": ["shared/*"],
       "@errors/*": ["errors/*"],
       "@utils/*": ["utils/*"],
-      "@middlewares/*": ["middlewares/*"],
+      "@middlewares/*": ["middlewares/*"]
     }
   }
 }
