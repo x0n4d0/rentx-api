@@ -12,12 +12,10 @@
     "resolveJsonModule": true,
     "baseUrl": "./src",
     "paths": {
-      "@modules/*": ["modules/*"],
       "@config/*": ["config/*"],
+      "@modules/*": ["modules/*"],
       "@shared/*": ["shared/*"],
-      "@errors/*": ["errors/*"],
-      "@utils/*": ["utils/*"],
-      "@middlewares/*": ["middlewares/*"]
+      "@utils/*": ["utils/*"]
     }
   }
 }
