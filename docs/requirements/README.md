@@ -17,7 +17,6 @@
 - [ ] It should be possible list all cars that are available or not by the administrator;
 - [ ] It should be able register a car image;
 - [ ] It should be able register a rental;
-- [ ]
 
 <br>
 
